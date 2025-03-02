@@ -1,5 +1,5 @@
 import React from 'react'
-import Section from '../Section'
+import Section from '../Section/Section'
 import { MdOutlineArrowOutward } from 'react-icons/md'
 import Image from 'next/image'
 

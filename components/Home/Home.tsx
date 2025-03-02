@@ -7,7 +7,7 @@ import DataCenter from '../DataCenter/DataCenter';
 import DataCenterSuppliers from '../DataCenter/DataCenterSuppliers';
 import Trusted from '../Trusted/Trusted';
 import Clintes from '../Clients/Clintes';
-import Section from './../Section';
+import Section from '../Section/Section';
 import RequestDemo from '../RequestDemo/RequestDemo';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
