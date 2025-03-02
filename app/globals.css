@@ -1,0 +1,123 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+/*-----------------------------------*\
+  #RESET
+\*-----------------------------------*/
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a,
+img,
+span,
+input,
+select,
+button {
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+
+input,
+select,
+button {
+  border: none;
+  background-color: none;
+  font: inherit;
+}
+button {
+  cursor: pointer;
+}
+input,
+select {
+  width: 100%;
+  outline: none;
+}
+address {
+  font-style: normal;
+  line-height: 1.6;
+}
+select {
+  appearance: none;
+  --webkit-appearance: none;
+  --moz-appearance: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+body{
+  background-color: rgba(245, 245, 245, 1);
+}
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--primary); 
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-clip: padding-box;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(45deg, #3E8DE3, #143AA2);
+  border-radius: 5px;
+  border: 2px solid var(--primary);
+  transition: background 0.3s ease, border 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  border: 1px solid #ffffff55;
+  background: linear-gradient(45deg, #143AA2, #3E8DE3);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  background: linear-gradient(45deg, #3E8DE3, #143AA2); 
+}
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+@layer utilities {
+  .nav__link {
+    @apply relative text-base w-fit block text-gray-600;
+  }
+
+  .nav__link::after {
+    content: '';
+    @apply block absolute h-[2px] bg-blue-700 w-full scale-x-0 transition duration-300 origin-right;
+  }
+
+  .nav__link:hover::after {
+    @apply scale-100 origin-left;
+  }
+ 
+}
+
+.play-btn {
+  animation: pluse 1.5s var(--transition-easing-quick) forwards infinite;
+}
+
+@keyframes pluse {
+  0% {
+    box-shadow: 0 0 0 0 #ffffff80;
+  }
+  100% {
+    box-shadow: 0 0 0 20px #ffffff00;
+  }
+}
