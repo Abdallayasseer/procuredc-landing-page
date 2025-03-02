@@ -35,6 +35,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+      <link rel="shortcut icon" href="/Logo.png" type="image/x-icon" />
+      </head>
       <body className={`${inter.className} antialiased`}>
         <ResponsiveNav />
         {children}

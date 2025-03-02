@@ -55,7 +55,7 @@ select {
 html {
   scroll-behavior: smooth;
 }
-body{
+body {
   background-color: rgba(245, 245, 245, 1);
 }
 ::-webkit-scrollbar {
@@ -63,7 +63,7 @@ body{
 }
 
 ::-webkit-scrollbar-track {
-  background-color: var(--primary); 
+  background-color: var(--primary);
   border-radius: 5px;
 }
 
@@ -72,7 +72,7 @@ body{
   border-radius: 5px;
   transition: background 0.3s ease;
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  background: linear-gradient(45deg, #3E8DE3, #143AA2);
+  background: linear-gradient(45deg, #3e8de3, #143aa2);
   border-radius: 5px;
   border: 2px solid var(--primary);
   transition: background 0.3s ease, border 0.3s ease;
@@ -80,12 +80,11 @@ body{
 
 ::-webkit-scrollbar-thumb:hover {
   border: 1px solid #ffffff55;
-  background: linear-gradient(45deg, #143AA2, #3E8DE3);
+  background: linear-gradient(45deg, #143aa2, #3e8de3);
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   border-radius: 5px;
-  background: linear-gradient(45deg, #3E8DE3, #143AA2); 
+  background: linear-gradient(45deg, #3e8de3, #143aa2);
 }
-
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -99,18 +98,17 @@ body{
   }
 
   .nav__link::after {
-    content: '';
+    content: "";
     @apply block absolute h-[2px] bg-blue-700 w-full scale-x-0 transition duration-300 origin-right;
   }
 
   .nav__link:hover::after {
     @apply scale-100 origin-left;
   }
- 
 }
 
 .play-btn {
-  animation: pluse 1.5s var(--transition-easing-quick) forwards infinite;
+  animation: pluse 1.5s ease-in-out forwards infinite;
 }
 
 @keyframes pluse {

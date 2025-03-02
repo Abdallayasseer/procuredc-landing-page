@@ -20,7 +20,7 @@ const WhoWeAre = () => {
         </div>
         {/* Image Section */}
         <div className="flex-1 w-full md:w-auto" data-aos="fade-left">
-          <Image
+          <Image width={100} height={100}
             src="/who we are.png"
             alt="placeholder"
             className="w-full h-auto"

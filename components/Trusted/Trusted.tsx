@@ -50,7 +50,7 @@ const Trusted = () => {
                 key={img.id}
                 className="overflow-hidden cursor-pointer p-2 bg-white rounded-[12px] shadow-md transition-transform duration-300 ease-in-out hover:scale-105"
               >
-                <Image src={img.src} alt={img.alt} loading="lazy" className="w-full h-auto object-cover" />
+                <Image width={100} height={100} src={img.src} alt={img.alt} loading="lazy" className="w-full h-auto object-cover" />
               </div>
             ))}
           </div>

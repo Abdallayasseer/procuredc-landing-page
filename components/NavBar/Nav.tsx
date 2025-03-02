@@ -26,7 +26,7 @@ const Nav = ({ openNav }: Props) => {
         {/* Logo */}
         <div className="flex items-center">
           <Link href="#">
-            <Image className="w-[51px] h-[44px]" src="/Logo.png" alt="Logo" loading="lazy" />
+            <Image className="w-[51px] h-[44px]" width={50} height={44} src="/Logo.png" alt="Logo" loading="lazy" />
           </Link>
         </div>
         <Links />

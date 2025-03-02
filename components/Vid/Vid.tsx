@@ -30,7 +30,7 @@ const Vid = () => {
               style={{ backgroundImage: "url('/vid sec.png')" }}
             >
               <button
-                className="w-16 h-16 sm:w-[72px] sm:h-[72px] rounded-full bg-white text-blue-900 grid place-items-center outline-none focus:outline-none animate-pluse"
+                className="play-btn w-16 h-16 sm:w-[72px] sm:h-[72px] rounded-full bg-white text-blue-900 grid place-items-center outline-none focus:outline-none"
                 aria-label="play video"
               >
                 <FaPlay

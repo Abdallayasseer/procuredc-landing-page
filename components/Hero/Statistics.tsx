@@ -11,7 +11,7 @@ const Statistics = () => {
           {heroImg.map((stat) => (
             <div key={stat.id} className="flex items-center">
               <div className="flex-none mr-2 w-20 h-20 md:w-24 md:h-24">
-                <Image src={stat.src} alt={stat.title} loading="lazy" className="w-full h-auto" />
+                <Image src={stat.src} alt={stat.title} loading="lazy" width={100} height={100} className="w-full h-auto" />
               </div>
               <div className="flex-grow">
                 <h3 className="font-semibold text-xl md:text-[32px] leading-tight md:leading-[40px] mb-2 md:mb-5">

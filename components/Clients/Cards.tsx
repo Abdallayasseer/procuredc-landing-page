@@ -16,7 +16,7 @@ const Cards = () => {
                     >
                         {/* Client Info */}
                         <div className="flex items-center mb-6">
-                            <Image
+                            <Image width={100} height={100}
                                 src={client.logo}
                                 alt={client.alt}
                                 className="w-20 h-20 rounded-full object-cover mr-4"
