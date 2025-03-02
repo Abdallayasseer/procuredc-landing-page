@@ -1,5 +1,6 @@
 import React from 'react'
 import Section from '../Section'
+import Image from 'next/image'
 
 const WhoWeAre = () => {
   return (
@@ -19,7 +20,7 @@ const WhoWeAre = () => {
         </div>
         {/* Image Section */}
         <div className="flex-1 w-full md:w-auto" data-aos="fade-left">
-          <img
+          <Image
             src="/who we are.png"
             alt="placeholder"
             className="w-full h-auto"

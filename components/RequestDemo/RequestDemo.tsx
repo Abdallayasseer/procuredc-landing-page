@@ -1,5 +1,6 @@
 import React from 'react'
 import Section from '../Section'
+import Image from 'next/image'
 
 const RequestDemo = () => {
   return (
@@ -10,7 +11,7 @@ const RequestDemo = () => {
         data-aos-duration="1500"
       >
         {/* Content Section */}
-        <div className="">
+        <div>
           <div className="title">
             <h3 className="text-[28px] md:text-[36px] font-bold leading-[1.5] text-white mb-5">
               Empower growth with AI: matching, compliance, cost-efficiency, and sustainable success.
@@ -37,7 +38,7 @@ const RequestDemo = () => {
         data-aos-easing="linear"
         data-aos-duration="1500"
       >
-        <img
+        <Image
           src="/ReqImg.png"
           alt="background-img"
           loading="lazy"

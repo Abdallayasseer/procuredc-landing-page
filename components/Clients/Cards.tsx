@@ -1,4 +1,5 @@
 import { clientData } from '@/Data/Data';
+import Image from 'next/image';
 import React from 'react'
 import { FaStar } from 'react-icons/fa';
 
@@ -15,7 +16,7 @@ const Cards = () => {
                     >
                         {/* Client Info */}
                         <div className="flex items-center mb-6">
-                            <img
+                            <Image
                                 src={client.logo}
                                 alt={client.alt}
                                 className="w-20 h-20 rounded-full object-cover mr-4"
@@ -33,7 +34,7 @@ const Cards = () => {
                         {/* Client Quote */}
                         <div className="text-xl italic text-gray-800 mb-6">
                             <i className="fas fa-quote-left text-3xl text-[#3E8DE3] mr-2"></i>
-                            "{client.quote}"
+                            &ldquo;{client.quote}&rdquo;
                         </div>
                         {/* Client Rating */}
                         <div className="flex">

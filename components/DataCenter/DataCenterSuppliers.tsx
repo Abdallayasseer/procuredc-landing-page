@@ -1,6 +1,7 @@
 import React from 'react'
 import Section from '../Section'
 import { MdOutlineArrowOutward } from 'react-icons/md'
+import Image from 'next/image'
 
 const DataCenterSuppliers = () => {
   return (
@@ -71,7 +72,7 @@ const DataCenterSuppliers = () => {
           {/* Image Section */}
           <div className="flex-1 w-full">
             <figure className="relative mb-10 lg:mb-1 p-4 sm:p-5 border border-gray-100 shadow-lg rounded-2xl transition-transform duration-300 ease-in hover:scale-105">
-              <img src="/DataCentersub.png" alt="Data Center Supplier 1" className="w-full h-auto rounded-2xl" />
+              <Image src="/DataCentersub.png" alt="Data Center Supplier 1" className="w-full h-auto rounded-2xl" />
               <figcaption className="mt-4 sm:mt-6 lg:mt-8 text-center">
                 <h3 className="text-[20px] sm:text-[24px] lg:text-[28px] font-bold mb-2 sm:mb-3 lg:mb-4 text-[#121212]">Title Here</h3>
                 <p className="text-[14px] sm:text-[16px] lg:text-[18px] leading-[22px] sm:leading-[24px] lg:leading-[28px] text-[#121212]/80">

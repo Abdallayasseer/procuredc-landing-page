@@ -3,6 +3,7 @@ import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 import { HiBars3BottomRight } from 'react-icons/hi2';
 import Links from './Links';
+import Image from 'next/image';
 
 type Props = {
   openNav: () => void,
@@ -25,7 +26,7 @@ const Nav = ({ openNav }: Props) => {
         {/* Logo */}
         <div className="flex items-center">
           <Link href="#">
-            <img className="w-[51px] h-[44px]" src="/Logo.png" alt="Logo" loading="lazy" />
+            <Image className="w-[51px] h-[44px]" src="/Logo.png" alt="Logo" loading="lazy" />
           </Link>
         </div>
         <Links />

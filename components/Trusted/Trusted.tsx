@@ -1,6 +1,7 @@
 import React from 'react'
 import Section from '../Section'
 import { trustImg } from '@/Data/Data'
+import Image from 'next/image'
 
 const Trusted = () => {
   return (
@@ -49,7 +50,7 @@ const Trusted = () => {
                 key={img.id}
                 className="overflow-hidden cursor-pointer p-2 bg-white rounded-[12px] shadow-md transition-transform duration-300 ease-in-out hover:scale-105"
               >
-                <img src={img.src} alt={img.alt} loading="lazy" className="w-full h-auto object-cover" />
+                <Image src={img.src} alt={img.alt} loading="lazy" className="w-full h-auto object-cover" />
               </div>
             ))}
           </div>
