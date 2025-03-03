@@ -38,7 +38,7 @@ const RequestDemo = () => {
         data-aos-easing="linear"
         data-aos-duration="1500"
       >
-        <Image width={100} height={100}
+        <Image width={770} height={100}
           src="/ReqImg.png"
           alt="background-img"
           loading="lazy"
