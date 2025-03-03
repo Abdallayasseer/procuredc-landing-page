@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ProcureDC Landing Page
+
+A responsive landing page built with Next.js (using the App Router) and Tailwind CSS for ProcureDC. This project highlights the platform’s value proposition for hyperscale data center operators with interactive UI elements, smooth transitions, and an optimized, modern design.
+
+## Demo
+Check out the live demo here: [ProcureDC Landing Page](https://procuredc-landing-page.vercel.app/)
+
+## Features
+- **Responsive Design**: Fully responsive layout that adapts to mobile, tablet, and desktop screens.
+- **Modern UI**: Smooth transitions and interactive UI elements for a great user experience.
+- **Next.js App Router**: Utilizes Next.js 13’s App Router for streamlined routing and component-based architecture.
+- **Tailwind CSS**: Clean, utility-first styling with optimized class usage.
+- **Optimized for SEO**: Includes meta tags and performance best practices.
+- **Easy to Customize**: Well-structured code that’s easy to modify and extend.
 
 ## Getting Started
+Follow these instructions to set up and run the project locally.
 
-First, run the development server:
+### Prerequisites
+- Node.js (version 14 or later)
+- npm (comes with Node.js) or yarn
+
+### Installation
+Clone the repository:
+
+```bash
+git clone https://github.com/Abdallayasseer/procuredc-landing-page.git
+cd procuredc-landing-page
+```
+
+Install dependencies using npm:
+
+```bash
+npm install
+```
+
+### Running the Project
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Built With
+- [Next.js](https://nextjs.org/) - React framework for production
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [Vercel](https://vercel.com/) - Hosting platform (for deployment)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Contact
+For any inquiries or feedback, please contact:
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Abdullah Yasser**  
+Email: [abdallayasser091@gmail.com](mailto:abdallayasser091@gmail.com)
