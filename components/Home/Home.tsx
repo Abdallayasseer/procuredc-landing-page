@@ -25,16 +25,18 @@ const Homepage = () => {
     initAOS();
   }, [])
   return (
-    <Section className='overflow-hidden'>
-      <Hero />
-      <WHOWEARE />
-      <Vid />
-      <DataCenter />
-      <DataCenterSuppliers />
-      <Trusted />
-      <Clintes />
-      <RequestDemo />
-    </Section>
+    <main>
+      <Section className='overflow-hidden'>
+        <Hero />
+        <WHOWEARE />
+        <Vid />
+        <DataCenter />
+        <DataCenterSuppliers />
+        <Trusted />
+        <Clintes />
+        <RequestDemo />
+      </Section>
+    </main>
   )
 }
 
